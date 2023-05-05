@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(227, 10%, 46%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+section{
+    justify-content: center;
+    display: flex;
+    align-items:center;
+    background-color: hsl(185, 75%, 39%);
+    width:100%;
+    height: 757px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 330px;
+    height: 340px;
+    background-color: #FFF;
+    border-radius: 15px;
+}
+.img-profile{
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    background-image:url('../images/guga.jpg');
+    background-size: cover;
+}
+.inf-profile{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.me-profile{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px 
+}
+.years-profile{
+    font-weight: bold;
+    padding-left: 4px;
+}
+
+.city-profile{
+    padding-bottom: 20px;
+}
+
+.name-profile, .number-k{
+    font-weight: bold;
+    color: rgb(46, 46, 54);
+}
+
+
+.inf-active{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border-top: 1px solid hsl(228, 6%, 83%);
+    padding-top:30px ;
+}
+.my-inf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
